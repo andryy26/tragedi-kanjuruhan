@@ -1,0 +1,64 @@
+* {padding: 1px; margin: 1px; font-family: cursive; }
+
+/* NAVBAR */
+
+.navbar {background-color: rgb(22, 64, 64); width: 100%; display: flex; margin: 2px; padding: 0px; display: flex;}
+
+.navbar h1 {color: #efefef;}
+
+
+
+/* ISI */
+
+.div .isi-luar {
+     margin: 10px auto;
+}
+
+.isi {
+    background-color:#efefef; 
+    margin: 3px auto; 
+    display: block; 
+    width: 80%; 
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 3px 3px rgb(14, 14, 39);}
+
+.isi:hover {background-color: black; color: aliceblue; transition: 2s;}
+
+.isi .gambar {height: 100px;}
+
+.isi h3 { margin: 20px auto 0;}
+
+.isi p {text-align: center; background-color: rgb(57, 96, 83); padding: 5px; border-radius: 5px; color: #efefef; box-shadow: 0 3px 3px rgb(14, 14, 39); }
+
+.isi:hover {color: rgb(255, 255, 255); background-color: rgb(14, 11, 58) ; } 
+
+.isi a {
+    text-decoration: none; 
+    background-color: rgb(22, 64, 64); 
+    color: #efefef; 
+    font-family:monospace; 
+    border-radius: 5px; 
+    top: 3px;
+ } 
+
+
+/* MENU */
+
+.menu { display: flex; margin: 1px auto ; width: 80%}
+
+ul {bottom: 0px; position: fixed; list-style-type: none; align-items: center;}
+
+ul li {text-decoration: none;  background-color: #efefef;} 
+
+ul li a {text-decoration: none; color: rgb(39, 39, 97);}
+
+ul li a:hover {color: #efefef}
+
+ul li:hover {background-color: rgb(39, 39, 97);}
+
+
+/* INPUT */
+
+input  {margin-right: 2px; background-color: azure; height: 20px; width: 30%; position: fixed; bottom:2px; right: 2px; margin-top: 2px; }
